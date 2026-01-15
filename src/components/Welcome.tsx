@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import { ArrowBigRightDash, ShoppingBasket, TruckElectric } from 'lucide-react'
 type propType={
 nextStep:(s:number)=>void
-
 }
 
 function Welcome({nextStep}:propType) {
